@@ -58,7 +58,7 @@ th, td {
 }
 
 #vector_mapa {
-  width: 85%;
+  width: 65%;
   height: 100%;
 }
 
@@ -80,7 +80,6 @@ th, td {
 
 /* Estilos de información país */
 .informacion_pais {
-  width: 60%; /* Cambiado a 100% para ocupar todo el ancho del contenedor */
   box-sizing: border-box;
   padding: 20px; 
   display: flex;
