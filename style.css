@@ -51,13 +51,14 @@ th, td {
 }
 
 
+/* Estilos del mapa y la información del país */
+.mapa_info_wrapper {
+  display: flex;
+  width: 100%;
+}
 
-
-
-
-/* Estilos del mapa*/
 #vector_mapa {
-  width: 60%;
+  width: 85%;
   height: 100%;
 }
 
@@ -75,4 +76,45 @@ th, td {
   z-index: 2;
   transform-origin: 90% 50%;
 }
+
+
+/* Estilos de información país */
+.informacion_pais {
+  width: 60%; /* Cambiado a 100% para ocupar todo el ancho del contenedor */
+  box-sizing: border-box;
+  padding: 20px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.informacion_pais > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; /* Espaciado entre img_dato y dato */
+}
+
+.informacion_pais h2 {
+  text-align: center;
+  font-size: 2em;
+}
+.informacion_pais img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px; 
+}
+
+.informacion_pais h3 {
+  flex: 1; /* Ocupa el espacio disponible restante */
+  margin: 0; /* Elimina el margen predeterminado */
+}
+
+.informacion_pais p {
+  margin: 0; /* Elimina el margen predeterminado */
+}
+
+
+
 

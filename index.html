@@ -27,7 +27,7 @@
               <td>Áreas Naturales Protegidas </td>
             </tr>
             <tr>
-              <td>99999 Km<sup>2</sup></td>
+              <td>3,375,372 Km<sup>2</sup></td>
               <td>244 M</td>
               <td>10% del planeta</td>
               <td>20% de la región</td>
@@ -36,6 +36,7 @@
         </table>
       </div>
 
+      <div class="mapa_info_wrapper">
       <div id="vector_mapa">
         <svg
           version="1.1"
@@ -245,8 +246,18 @@
         </svg>
       </div>
 
-      <div class="informacion">
-
+      <div class="informacion_pais" id="contenedor_informacion">
+        <div class="informacion_pais" id="contenedor_nombre_pais" style="text-align: center;">
+          <h2 id="nombre_pais">País</h2>
+        </div>
+        <div class="informacion_pais" id="capital"><img src="img/capital.png" alt="" class="img_dato"> <h3>Capital: </h3> <p class="dato" id="dato_capital"></p></div>
+        <div class="informacion_pais" id="superficie"><img src="img/superficie.png" alt="" class="img_dato"> <h3>Superficie: </h3> <p class="dato" id="dato_superficie"><sup>2</sup></p></div>
+        <div class="informacion_pais" id="poblacion"><img src="img/poblacion.png" alt="" class="img_dato"> <h3>Población: </h3> <p class="dato" id="dato_poblacion"> </p></div>
+        <div class="informacion_pais" id="idiomas"><img src="img/idiomas.png" alt=" class="img_dato"> <h3>Idiomas: </h3><p class="dato" id="dato_idiomas"></p></div>
+        <div class="informacion_pais" id="unidad_monetaria"><img src="img/moneda.png" alt="" class="img_dato"> <h3>Unidad monetaria: </h3> <p class="dato" id="dato_moneda"></p></div>
+        <div class="informacion_pais" id="pib"><img src="img/pib.png" alt="" class="img_dato"> <h3>PIB: </h3><p class="dato" id="dato_pib"></p></div>
+        <div class="informacion_pais" id="estado_miembro"><img src="img/miembro.png" alt="" class="img_dato"> <h3>Estado miembro de Proyecto Mesoamérica:</h3> <p class="dato" id="dato_miembro"></p></div>
+      </div>
       </div>
     </section>
   </body>
