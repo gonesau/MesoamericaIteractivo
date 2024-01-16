@@ -108,7 +108,9 @@ th, td {
 .informacion_pais h3 {
   flex: 1; /* Ocupa el espacio disponible restante */
   margin: 0; /* Elimina el margen predeterminado */
+  padding-right: 8px;
 }
+
 
 .informacion_pais p {
   margin: 0; /* Elimina el margen predeterminado */
