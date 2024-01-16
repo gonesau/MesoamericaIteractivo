@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function () {
       miembro: "2009",
     },
     Belice: {
-      nombre: "Belice",
+      nombre: "Belize",
       capital: "Belmopán",
       superficie: "22,970 km²",
       poblacion: "0.4 M",
