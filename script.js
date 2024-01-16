@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
       idiomas: "Español",
       moneda: "Peso Mexicano",
       pib: "11,099 USD",
-      miembro: "2008",
+      miembro: "2001",
     },
     Honduras: {
       nombre: "Honduras",
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
       idiomas: "Español",
       moneda: "Lempira",
       pib: "3,039 USD",
-      miembro: "2010",
+      miembro: "2001",
     },
     Guatemala: {
       nombre: "Guatemala",
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
       idiomas: "Español",
       moneda: "Quetzal",
       pib: "5,360 USD",
-      miembro: "2013",
+      miembro: "2001",
     },
     Nicaragua: {
       nombre: "Nicaragua",
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
       idiomas: "Español",
       moneda: "Córdoba",
       pib: "2,261 USD",
-      miembro: "2013",
+      miembro: "2001",
     },
     CostaRica: {
       nombre: "Costa Rica",
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
       idiomas: "Español",
       moneda: "Colón",
       pib: "13,603 USD",
-      miembro: "2013",
+      miembro: "2001",
     },
     Panama: {
       nombre: "Panamá",
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
       idiomas: "Español",
       moneda: "Balboa",
       pib: "17,358 USD",
-      miembro: "2013",
+      miembro: "2001",
     },
     Colombia: {
       nombre: "Colombia",
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
       idiomas: "Español",
       moneda: "Peso Colombiano",
       pib: "6,643 USD",
-      miembro: "2013",
+      miembro: "2009",
     },
     ElSalvador: {
       nombre: "El Salvador",
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
       idiomas: "Español",
       moneda: "Dólar Estadounidense",
       pib: "5,127 USD",
-      miembro: "2013",
+      miembro: "2001",
     },
     RepublicaDominicana: {
       nombre: "República Dominicana",
@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function () {
       idiomas: "Español",
       moneda: "Peso Dominicano",
       pib: "10,119 USD",
-      miembro: "2013",
+      miembro: "2009",
     },
     Belice: {
       nombre: "Belice",
@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", function () {
       idiomas: "Español",
       moneda: "Dólar Beliceño",
       pib: "7,337 USD",
-      miembro: "2013",
+      miembro: "2001",
     },
   };
 

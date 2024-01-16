@@ -11,44 +11,48 @@
 
 /* Estilos del cuadro con cifras*/
 .cuadro_datos {
-  border: 1px solid #ddd;
-  border-collapse: collapse;
+  border: none;
   width: 100%;
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   margin: 20px;
   z-index: 2;
-  text-align: center; /* Centrar horizontalmente */
-}
-
-th, td {
-  border: 1px solid #ddd;
-  padding: 10px;
-  text-align: center; /* Centrar horizontalmente */
-  vertical-align: middle; /* Centrar verticalmente */
-  width: 25%; /* Dividir en partes iguales el ancho */
+  text-align: center;
 }
 
 th {
-  background-color: #3498db;
-  color: #fff;
-  font-size: 1.5em;
+  border: none;
   font-weight: bold;
+  padding: 10px;
+  text-align: center; /* Alinear el texto a la izquierda */
+  vertical-align: middle;
+  width: 25%;
+}
+
+th img {
+  margin-right: 5px; /* Espaciado entre el icono y el texto */
+  width: 10%;
+  vertical-align: middle;
+}
+
+td {
+  border: none;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  width: 25%;
 }
 
 tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
-th, td {
-  width: 25%; 
-  box-sizing: border-box;
+.cuadro_datos table {
+  width: 100%;
+  table-layout: fixed;
 }
 
-.cuadro_datos table {
-  width: 100%; /* Ocupar todo el ancho de su contenedor */
-  table-layout: fixed; 
-}
 
 
 /* Estilos del mapa y la información del país */
