@@ -8,6 +8,11 @@
   flex-direction: column;
 }
 
+.indicacion{
+  text-align: center;
+  font-size: 1.5em;
+  margin: 20px;
+}
 
 /* Estilos del cuadro con cifras*/
 .cuadro_datos {
@@ -24,13 +29,13 @@ th {
   border: none;
   font-weight: bold;
   padding: 10px;
-  text-align: center; /* Alinear el texto a la izquierda */
+  text-align: center; 
   vertical-align: middle;
   width: 25%;
 }
 
 th img {
-  margin-right: 5px; /* Espaciado entre el icono y el texto */
+  margin-right: 5px; 
   width: 10%;
   vertical-align: middle;
 }
@@ -96,7 +101,7 @@ tr:nth-child(even) {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between; /* Espaciado entre img_dato y dato */
+  justify-content: space-between; 
 }
 
 .informacion_pais h2 {
@@ -110,14 +115,14 @@ tr:nth-child(even) {
 }
 
 .informacion_pais h3 {
-  flex: 1; /* Ocupa el espacio disponible restante */
-  margin: 0; /* Elimina el margen predeterminado */
+  flex: 1; 
+  margin: 0; 
   padding-right: 8px;
 }
 
 
 .informacion_pais p {
-  margin: 0; /* Elimina el margen predeterminado */
+  margin: 0; 
 }
 
 
