@@ -126,5 +126,21 @@ tr:nth-child(even) {
 }
 
 
+/* Media query para pantallas pequeñas (móviles) */
+@media screen and (max-width: 768px) {
+  .mapa_info_wrapper {
+    flex-direction: column;
+  }
+
+  #vector_mapa {
+    order: 1; 
+    width: 100%;
+  }
+
+  .informacion_pais {
+    order: 2;
+  }
+}
+
 
 
