@@ -134,13 +134,23 @@ tr:nth-child(even) {
 
   #vector_mapa {
     order: 1; 
-    width: 100%;
+    width: 100%; 
   }
 
   .informacion_pais {
-    order: 2;
+    order: 2; 
+  }
+
+  .cuadro_datos {
+    margin: 20px 0; 
+  }
+  
+  th,
+  td {
+    width: 100%; 
   }
 }
+
 
 
 
